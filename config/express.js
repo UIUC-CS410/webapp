@@ -60,6 +60,7 @@ module.exports = function(app, db) {
     '!^/api/.*|\\_getModules|\\.html|\\.js|\\.css|\\.swf|\\.jp(e?)g|\\.png|\\.ico|\\.gif|\\.svg|\\.eot|\\.ttf|\\.woff|\\.txt|\\.pdf$ / [L]'    
 
   ]));
+  //app.use(require('skipper')());
 
   // app.use(seo());
 };

@@ -22,8 +22,8 @@
   "dependencies": {
     "assetmanager": "latest",
     "async": "latest",
-    "bower": "latest",
     "body-parser": "latest",
+    "bower": "latest",
     "compression": "latest",
     "connect-flash": "latest",
     "connect-modrewrite": "latest",
@@ -39,6 +39,7 @@
     "mongoose": "latest",
     "morgan": "latest",
     "ms": "latest",
+    "multer": "^1.1.0",
     "nodemailer": "latest",
     "npm": "^2.1.0",
     "passport-facebook": "latest",
@@ -51,6 +52,8 @@
     "request": "latest",
     "serve-favicon": "latest",
     "shelljs": "latest",
+    "skipper": "^0.5.9",
+    "skipper-gridfs": "^0.5.3",
     "swig": "latest",
     "view-helpers": "latest"
   },

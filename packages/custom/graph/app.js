@@ -29,7 +29,8 @@ Graph.register(function(app, auth, database) {
   Graph.aggregateAsset('js', '../lib/vis/dist/vis.js');
   Graph.aggregateAsset('js', '../lib/angular-visjs/angular-vis.js');
 
-  Graph.angularDependencies(['ngVis']);
+  Graph.aggregateAsset('js', '../lib/angular-file-upload/dist/angular-file-upload.min.js');
+  Graph.angularDependencies(['ngVis','angularFileUpload']);
 
   /**
     //Uncomment to use. Requires meanio@0.3.7 or above

@@ -21,4 +21,5 @@ module.exports = function(System, app, auth, database) {
 
     return res.send(config.public);
   });
+
 };
